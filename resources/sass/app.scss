@@ -1,0 +1,142 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//JP CSS
+.mention {
+    margin-top: 80px;
+    text-align: center!important;
+}
+
+.rubrikTitle {
+    font-size: 2em!important;
+    text-shadow: 2px 2px 2px rgba(91, 91, 91, 0.4);
+}
+
+.logo {
+    height: 120px;
+    background-image: url("images/FILL9_logo.png");
+    background-repeat: no-repeat;
+    background-position: top 15% right 50%;
+    background-size: 100px;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #21C3D7!important;
+    border: 1px solid #ced4da!important;
+    border-radius: 0.25rem;
+}
+
+.painting {
+    margin: auto;
+    border: 1px darkmagenta solid;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(171, 171, 171, 1);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(171, 171, 171, 1);
+    box-shadow: 3px 3px 3px 0px rgba(171, 171, 171, 1);
+}
+
+element.style {}
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+user agent stylesheet option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.jp_tabPage {
+    padding: 20px;
+    display: none;
+}
+
+.userChat {
+    color: gainsboro;
+    font-weight: bold!important;
+}
+
+.chatTools {
+    padding: 5px;
+    border: 1px gainsboro solid;
+    width: fit-content;
+    float: right;
+}
+
+.chatTools span {
+    display: inline;
+    margin-left: 5px;
+}
+
+.chatTools span:hover {
+    color: orange;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.bg_green {
+    background-color: #e3fce4;
+}
+
+.step {
+    font-size: 4em;
+}
+
+.step-title {
+    float: left;
+    display: block!important;
+}
+
+.head-presentation {
+    padding: 10px;
+    text-align: left;
+    color: grey;
+    font-size: 1.1em;
+    ;
+}
+
+.miniIconMenu {
+    margin-right: 20px;
+}
